@@ -17,7 +17,7 @@ public class LinkedListTest {
         assertEquals(expected, EjercicioLinkedList.removeDuplicates(list));
     }
 
-   @Test
+   /*0@Test
     public void testReverseLinkedList() {
         LinkedList<String> list = new LinkedList<>();
         list.add("A"); list.add("B"); list.add("C"); list.add("D");
@@ -31,9 +31,9 @@ public class LinkedListTest {
         EjercicioLinkedList.reverseLinkedList(list);
 
         assertEquals(expected, list);  //Esto fallará porque la lista sí se invierte
-    }
+    }*/
 
-    /*CODIGO CORRECTO, EN EL CUAL NO FALLA EL TESTE
+
     @Test
     public void testReverseLinkedList() {
         LinkedList<String> list = new LinkedList<>();
@@ -48,7 +48,7 @@ public class LinkedListTest {
         expected.add("A");
         EjercicioLinkedList.reverseLinkedList(list);
         assertEquals(expected, list);
-    }*/
+    }
 
 
     @Test
